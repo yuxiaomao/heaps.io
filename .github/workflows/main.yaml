@@ -23,7 +23,7 @@ jobs:
       - name: Setup Haxe
         uses: krdlab/setup-haxe@v1
         with:
-          haxe-version: 4.3.4
+          haxe-version: 4.3.6
 
       - name: Install
         # at some point all npm needs to be in package.json
