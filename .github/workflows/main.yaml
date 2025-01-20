@@ -44,7 +44,7 @@ jobs:
           haxe heaps.io.hxml
 
       - name: Deploy
-        if: github.ref == 'refs/heads/master'
+        if: ${{ github.ref == 'refs/heads/master' || github.event_name == 'push' }}
         run: haxe deploy.hxml
         env:
           GHP_EMAIL: "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
