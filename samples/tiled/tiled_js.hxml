@@ -1,0 +1,7 @@
+-lib heaps
+-js tiled.js
+-main Tiled
+-cp ../..
+-cp .
+-debug
+-D resourcesPath=../../tiled_res

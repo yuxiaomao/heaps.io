@@ -1,0 +1,7 @@
+-lib heaps
+-js fxView.js
+-main FxView
+-cp ../..
+-cp .
+-debug
+-lib hide

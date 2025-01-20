@@ -1,0 +1,9 @@
+-lib heaps
+-lib hlsdl
+-hl domkit.hl
+-main Domkit
+-D windowSize=1024x768
+-cp ../..
+-cp .
+-D resourcesPath=../../domkit_res
+-lib domkit
